@@ -136,6 +136,45 @@
     opacity: 0.8;
 }
 
+.plants-lover{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+}
+.lover-image{
+    position: relative;
+}
+.image2{
+    position:absolute;
+    top: -90px;
+    right:-90px;
+    
+    width: 250px;
+    height: auto;
+}
+.lover-image,.lover-info{
+    width: 45%;
+}
+.lover-info h1{
+     font-family: "Noto Serif", serif;
+     font-size: 50px;
+     margin-bottom: 20px;
+}
+.lover-info ul li{
+     font-family: "Inter", sans-serif;
+     font-size: 1.25rem;
+     text-align: justify;
+     opacity: 0.8;
+     margin-top: 20px;
+}
+.lover-info{
+   padding-top: 80px;
+}
+.image1{
+    height:597px ;
+    width:540px ;
+}
 
 
 
@@ -232,7 +271,28 @@
         width: 100%;
         
     }
-    
+    .plants-lover{
+        flex-direction: column;
+    }
+    .image2{
+        display: none;
+    }
+    .image1{
+        width: 100%;
+        height: auto;
+    }
+    .lover-image{
+        width: 100%;
+        
+    }
+    .lover-info{
+        width: 100%;
+        margin-top: -90px;
+    }
+    .plants-lover{
+        margin-left: 30px;
+        margin-top: -5px;
+    }
 
 
 }
