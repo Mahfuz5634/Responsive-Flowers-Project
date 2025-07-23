@@ -200,6 +200,15 @@
         margin-top: 70px;
     }
     .plants-card{
+    
+    grid-template-columns: repeat(2,1fr);
+    
+   
+}
+.plants-title{
+    text-align: center;
+}
+.plants-card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 100%;
@@ -223,5 +232,11 @@
         width: 100%;
         
     }
+    
+
+
 }
+    
+
+
 
