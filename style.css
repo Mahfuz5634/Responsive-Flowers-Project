@@ -132,6 +132,9 @@
 .plants-title{
     margin-bottom: 40px;
 }
+.card button:hover{
+    opacity: 0.8;
+}
 
 
 
@@ -141,6 +144,7 @@
     
     .header{
         margin: 35px 15px;
+        width: 100%;
     }
     .right-nav a{
         display: none;
@@ -174,6 +178,8 @@
     }
     .hero-right img{
        width: 100%;
+       margin-left: 9px;
+      
     }
     .hero-right{
         width: 100%;
@@ -197,19 +203,25 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 100%;
-    margin-left: 15px;
+    margin-left:30px;
     margin-top: 50px;
+    column-gap: 5px;
    
-    
-   
-    
-    }
+}
+.plants-title{
+    text-align: center;
+}
+.plants-title p{
+    width: 95%;
+
+}
     .card{
-        width: 180px;
+        width: 170px;
         margin-bottom: -110px;
     }
-    .main{
+    main{
         width: 100%;
+        
     }
 }
 
