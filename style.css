@@ -177,6 +177,7 @@
 }
 .latest-deal-img{
     display: flex;
+    gap: 25px;
   
     
 }
@@ -212,13 +213,14 @@
 }
 .deal-img2{
     width:95%;
-    height: 430px;
+    height: 420px;
 
     background-image: url(./assets/deal-zabo.png);
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 10px;
     position: relative;
+    margin-top: 6px;
     
 }
 .latest-deal{
@@ -298,8 +300,46 @@
     font-size: 40px;
 }
 
+.feedback-section{
+    background-image: url(./assets/news-letter-bg.png);
+    height: 533px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+.feedback-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-info h1{
+    font-size: 50px;
+     font-family: "Noto Serif", serif;
+     color: white;
+    
+}.feedback-info{
+    text-align: center;
+}
+.feedback-info input{
+    width: 540px;
+    height: 48px;
+    border: none;
+}
+.feedback-info button{
+    width: 186px;
+    height: 50px;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: -4px;
+}
+.feedback-info input::placeholder{
+    padding-left: 20px;
 
-
+}
 
 
 
@@ -308,7 +348,24 @@
 
 /* responsive-part */
 @media  (max-width:576px) {
-    
+    .feedback-section{
+        width:100% ;
+        height: 275px;
+        background-position: center;
+        margin-left: 15px;
+        
+        
+    }
+    .feedback-section button{
+        width: 40%;
+    }
+    .feedback-section input{
+          width: 60%;
+    }
+    .feedback-section h1{
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
     .header{
         margin: 35px 15px;
         width: 100%;
