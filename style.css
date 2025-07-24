@@ -396,10 +396,12 @@
     }
     
     .feedback-section{
-        width:100% ;
+        width:459px ;
         height: 275px;
         background-position: center;
-        margin-left: 15px;
+        
+       
+        
       
 }
     .feedback-section button{
