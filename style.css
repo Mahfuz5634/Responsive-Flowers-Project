@@ -173,8 +173,136 @@
 }
 .image1{
     height:597px ;
-    width:540px ;
+   
 }
+.latest-deal-img{
+    display: flex;
+  
+    
+}
+.deal-img1{
+    width: 45%;
+    margin-right: 20px;
+
+    
+    
+}
+.deal-img1-1{
+    
+    height: 200px;
+    width: 100%;
+    background-image: url(./assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+     border-radius: 10px;
+     position: relative;
+    
+
+}
+.deal-img1-2{
+   width: 100%;
+    height: 205px;
+    background-image: url(./assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     border-radius: 10px;
+     position: relative;
+    
+}
+.deal-img2{
+    width:95%;
+    height: 430px;
+
+    background-image: url(./assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.latest-deal{
+    text-align: center;
+    
+}
+.latest-deal h1{
+     font-family: "Noto Serif", serif;
+     font-size: 50px;
+}
+.latest-deal span{
+    color: #e85a08;
+}
+.latest-deal p{
+     font-family: "Inter", sans-serif;
+     font-size: 22px;
+     opacity: 0.8;
+     margin: 20px;
+     margin-bottom: 80px;
+}
+.deal-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+.deal-overlay3 {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3); 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+.deal-overlay button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.deal-overlay button:hover {
+    background: #ddd;
+}
+.deal-overlay3 button {
+    background: white;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.deal-overlay3 button:hover {
+    background: #ddd;
+}
+.deal-img2 h3{
+    font-size: 40px;
+}
+
+
+
+
+
+
 
 
 
@@ -230,10 +358,11 @@
        margin-top: 20px;
     }
     .hero-left p{
-        width: 90%;
+        width: 95%;
         font-size: 1.15rem;
         text-align: justify;
         margin-top: 10px;
+        
     }
     .plants-title{
         margin-top: 70px;
@@ -261,6 +390,7 @@
 }
 .plants-title p{
     width: 95%;
+    margin-left: 15px;
 
 }
     .card{
@@ -286,15 +416,32 @@
         
     }
     .lover-info{
-        width: 100%;
+        width: 90%;
         margin-top: -90px;
+        margin-left: 15px;
     }
     .plants-lover{
         margin-left: 30px;
         margin-top: -5px;
     }
-
-
+    .latest-deal-img{
+    flex-direction: column;
+    width: 100%;
+}
+.deal-img1-1,.deal-img1-2{
+    width: 420px;
+    margin-left: 20px;
+}
+.deal-img2{
+  width: 420px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-size: cover;
+  height: 200px;
+}
+.deal-img2 h3{
+    font-size: 20px;
+}
 }
     
 
